@@ -5,7 +5,7 @@ plt2r <- function(fileName) {
   ##
   ## open connection to file
   conn <- file(fileName,open="r")
-  
+   
   ## determine number of curves in tablulated columns
   ## curve number information is on line 3
   linn <-readLines(conn, n=3)

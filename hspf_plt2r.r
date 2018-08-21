@@ -2,7 +2,7 @@ plt2r <- function(fileName) {
   ## gets data from HSPF pltgen and returns a data fram with ...
   
   ## read pltgen output file
-  ##########
+  
   ## open connection to file
   conn <- file(fileName,open="r")
    
